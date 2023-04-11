@@ -4,8 +4,9 @@
   "description": "API to communicate between mongo and my react-native application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"npm run nodeman"
+    "start":"node index.js",
+    "dev": "nodeman index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wasswaenockmale",
   "license": "ISC",
